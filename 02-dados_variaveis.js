@@ -11,6 +11,7 @@ console.log(nome[0]);
 console.log(nome[4]);
 console.log(nome[3]);
 console.log(nome[2-1]);
+console.log( "O " + nome + " tem " + (num1+num2) + " anos de idade!!");
 
 // 
 
