@@ -33,7 +33,33 @@ console.log(p1>p3);
 // string com a comida predileta
 console.log ("Parmeggiana ");
 
-// 
+// Conserte a expressão do lado correto para que seja = True
+// "ALL Strings are CrEaTeD equal" == "All STRINGS are CrEaTED Equal"
+
+var exp1 = "All STRINGS are CrEaTED Equal";
+var exp2 = "All Strings are CrEaTeD Equal";
+console.log(exp1==exp2);
+
+//Construa uma única string que se assemelha à seguinte piada:
+// Why couldn't the shoes go out and play?
+// They were all "tied" up!
+
+var joke = "Why couldn't the shoes go out and play?\nThey were all \"tied\" up!";
+console.log(joke);
+
+//Construa uma string utilizando concatenação, por meio da combinação das linhas deste famoso poema haiku de Yosa Buson:
+
+//Blowing from the west
+
+//Fallen leaves gather
+
+//In the east.
+var haiku = "Blowing from the west\n\nFallen leaves gather\n\nIn the east.";
+console.log(haiku);
+
+
+
+
 
 
 
