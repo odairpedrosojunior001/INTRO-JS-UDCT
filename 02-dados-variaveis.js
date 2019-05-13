@@ -57,9 +57,9 @@ console.log(joke);
 var haiku = "Blowing from the west\n\nFallen leaves gather\n\nIn the east.";
 console.log(haiku);
 
-for (var i=1;i<=100;i++){
-    console.log(i);
-  }
+//for (var i=1;i<=100;i++){
+//   console.log(i);
+//  }
 
 
 /* Instruções Quiz:
@@ -71,7 +71,26 @@ Dica: 15% na forma decimal é escrito como 0.15_._
 
 DICA: para exibir o valor de total com o símbolo de dólar ($), utilize concatenação de strings. Para arredondar para duas casas decimais, utilize o método toFixed(). Para utilizar toFixed(), passe o número de casas decimais que você deseja ter. Por exemplo, se total for igual a 3.9860, então total.toFixed(2) retornará 3.99.*/
 
-var 
+var bill = (10.25+3.99+7.15);
+console.log(bill);
+var tip = bill * 0.15;
+console.log(tip);
+var total= bill + tip;
+var total = ("$" + total.toFixed(2));
+console.log(total) ;
+
+var loc = "Labs";
+var date = "10/05/19";
+var dayWeek  = "sexta-feira";
+console.log ("Hoje, dia " + date + ", " + "estou no " + loc + ".\nUma ótima " + dayWeek + " à todos vocês.");
+
+// Quiz Madlib.js : 
+
+
+
+
+
+
 
 
 
