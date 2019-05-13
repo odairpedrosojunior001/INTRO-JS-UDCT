@@ -84,7 +84,28 @@ var date = "10/05/19";
 var dayWeek  = "sexta-feira";
 console.log ("Hoje, dia " + date + ", " + "estou no " + loc + ".\nUma ótima " + dayWeek + " à todos vocês.");
 
-// Quiz Madlib.js : 
+// Quiz Madlib.js : 'The Intro to JavaScript course is amazing. James and Julia are so fun. I cannot wait to work through the rest of this entertaining content!'
+ 
+
+var adjective1 = "amazing";
+var adjective2 = "fun";
+var adjective3 = "entertaining";
+
+var madLib = ("The Intro to JavaScript course is "+adjective1+"." + " James and Julia are so " + adjective2+ "." +" I cannot wait to work through the rest of this " + adjective3 +" content!");
+console.log(madLib);
+
+//Quiz uma mensagem incrivel: 
+//"Hi, my name is Julia. I love cats. In my spare time, I like to play video games."
+//"Hi, my name is James. I love baseball. In my spare time, I like to read."
+//Hi, my name is Odair. I love javascript. In my spare time, I like to play soccer.
+var firstName = "Odair";
+var interest = "javascript";
+var hobby = "play soccer";
+var awesomeMessage = ("Hi, my name is " + firstName + "." + " I love " + interest + "." + " In my spare time, I like to " + hobby + "." );
+console.log(awesomeMessage);
+
+
+
 
 
 
